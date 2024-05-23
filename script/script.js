@@ -13,6 +13,6 @@ multiply(5, 6)
 //question 3
 const tableOfFive = (num) => {
     let paramTimesFive = num * 5
-    console.log(paramTimesFive)
+    return paramTimesFive
 }
-tableOfFive(8)
+console.log(tableOfFive(8))
